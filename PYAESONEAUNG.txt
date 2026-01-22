@@ -1,0 +1,12 @@
+🚀 DEBUG banner ဖယ်ဖို့ နည်းလမ်း ၂ နည်း
+
+VS Code မှာ:
+1. Run (▶️) ခလုတ် → Run without debugging (Shift+F5)
+2. ဒါမှမဟုတ် Terminal မှာ:
+   flutter run --release
+
+
+MaterialApp(
+  debugShowCheckedModeBanner: false,  // ✅ ဒီ line ထည့်
+  home: HomeScreen(),
+)
